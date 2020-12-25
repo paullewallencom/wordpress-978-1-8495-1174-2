@@ -1,0 +1,25 @@
+.authorName{
+	margin-left: 40px;
+	margin-bottom: 20px;
+	font-size: 95%;
+	color: #000;
+	
+}
+.authorBio {
+		border-top: 2px solid #666;
+		border-bottom: 2px solid #999;
+		background-color: #ccc;
+		padding: 10px;
+		font-size: 90%;
+}
+
+.authorBioHover{
+	position: absolute;
+	margin-top: -10px;
+	width: 400px;
+	/*these will make slightly round corners in 
+	FireFox & Safari. IE will still be square*/
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #000;
+}
